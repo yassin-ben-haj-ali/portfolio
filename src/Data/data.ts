@@ -18,7 +18,7 @@ export const education = [
 ];
 
 /* =======================
-   EXPÉRIENCES
+   EXPERIENCES DATA
    ======================= */
 export const experiences = [
   {
@@ -61,3 +61,14 @@ export const experiences = [
     logo: `${BASE}images/logo_placeholder.png`,
   },
 ];
+
+/* =======================
+   Skills DATA
+   ======================= */
+export const skills = {
+  Langages: ["Java", "Python", "JavaScript", "TypeScript", "Dart"],
+  Frontend: ["React.js", "Next.js", "Flutter", "HTML/CSS"],
+  Backend: ["Node.js", "Express.js", "Spring Boot", "Flask", "Hono.js"],
+  "Bases de données": ["MongoDB", "PostgreSQL", "MySQL", "Firebase"],
+  "Outils & DevOps": ["Git", "Docker", "Kubernetes", "CI/CD", "Cloudflare"],
+};

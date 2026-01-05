@@ -1,6 +1,6 @@
 import { Briefcase } from "lucide-react";
 import { experiences } from "@/Data/data";
-import ExperienceCard from "@/components/Navbar/ExperienceCard";
+import ExperienceCard from "@/components/ExperienceCard";
 
 const Experience = () => {
   return (
