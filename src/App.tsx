@@ -1,4 +1,5 @@
 import Navbar from "./components/Navbar/Navbar";
+import About from "./sections/About";
 import Hero from "./sections/Hero";
 
 const App = () => {
@@ -6,6 +7,7 @@ const App = () => {
     <div className="min-h-screen bg-black text-white">
       <Navbar />
       <Hero />
+      <About />
     </div>
   );
 };
