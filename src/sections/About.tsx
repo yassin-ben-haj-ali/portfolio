@@ -1,5 +1,6 @@
-import { education } from "@/Data/data";
-import { GraduationCap } from "lucide-react";
+import SkillsCard from "@/components/SkillsCard";
+import { education, skills } from "@/Data/data";
+import { Code2, GraduationCap } from "lucide-react";
 
 const About = () => {
   return (
@@ -46,6 +47,25 @@ const About = () => {
                   </p>
                   <p className="text-sm text-gray-400">{edu.period}</p>
                 </div>
+              ))}
+            </div>
+          </div>
+        </div>
+        <div className="relative group">
+          <div className="absolute inset-0 bg-gradient-to-br from-blue-500/5 to-purple-500/5 rounded-3xl blur-xl" />
+          <div className="relative bg-gradient-to-br from-blue-500/5 via-purple-500/5 to-transparent p-8 rounded-3xl border border-blue-500/20 backdrop-blur-sm">
+            <div className="flex items-center justify-center gap-4 mb-8">
+              <div className="p-3 bg-blue-500/10 rounded-2xl border border-blue-500/30">
+                <Code2 className="text-blue-400" size={32} />
+              </div>
+              <h3 className="text-3xl font-bold text-center">
+                Technical Skills
+              </h3>
+            </div>
+
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {Object.entries(skills).map(([category, items]) => (
+                <SkillsCard key={category} category={category} items={items} />
               ))}
             </div>
           </div>
