@@ -29,7 +29,7 @@ const Contact = () => {
           {/* Email */}
           <ContactCard
             icon={<Mail className="text-blue-400" size={28} />}
-            title="email"
+            title="Email"
             description="yassinbenhajali5@gmail.com"
             href="mailto:yassinbenhajali5@gmail.com"
             isPurple={false}
@@ -37,14 +37,15 @@ const Contact = () => {
           {/* Phone */}
           <ContactCard
             icon={<Phone className="text-purple-400" size={28} />}
-            title="Téléphone"
+            title="Phone"
             description="+216 28 75 22 73"
+            href="tel:+21628752273"
             isPurple
           />
           {/* Location */}
           <ContactCard
             icon={<MapPin className="text-blue-400" size={28} />}
-            title="Localisation"
+            title="Location"
             description="Sousse, Tunisia"
             isPurple={false}
           />
@@ -55,8 +56,8 @@ const Contact = () => {
                 <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse" />
               </div>
             }
-            title="Disponibilité"
-            description="Disponible pour de nouveaux projets"
+            title="Availability"
+            description="Available for new projects"
             isPurple
           />
         </div>

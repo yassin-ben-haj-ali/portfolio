@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import Navbar from "./components/Navbar/Navbar";
 import About from "./sections/About";
 import Contact from "./sections/Contact";
@@ -14,6 +15,7 @@ const App = () => {
       <Experience />
       <Projects />
       <Contact />
+      <Footer />
     </div>
   );
 };
