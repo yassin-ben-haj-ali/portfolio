@@ -56,17 +56,17 @@ const Hero = () => {
               <div className="flex items-center justify-center lg:justify-start space-x-2">
                 <div className="h-1 w-8 md:w-12 bg-gradient-to-r from-blue-400 to-blue-600 rounded-full" />
                 <p className="text-lg sm:text-xl md:text-2xl text-gray-600 dark:text-gray-400 font-light">
-                  Software Engineer & Web Developer
+                  Software Engineer
                 </p>
               </div>
             </div>
 
             <p className="text-base md:text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
-              Dynamic Software Engineer with a strong passion for web
-              development. I build responsive and scalable applications using
-              ReactJS, NextJS, NodeJS and Laravel. I focus on solving problems,
-              making websites fast, and keeping up with new technology trends
-              for a great user experience.
+              Software Engineer focused on building reliable, scalable
+              applications with clean, maintainable code. I enjoy solving
+              real-world problems, improving performance, and collaborating to
+              create high-quality software while continuously learning and
+              evolving.
             </p>
 
             {/* CTA Buttons */}
