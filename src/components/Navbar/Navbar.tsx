@@ -5,11 +5,11 @@ import NavItem from "./NavItem";
 import MobileNavItem from "./MobileNavItem";
 
 const navItems = [
-  { id: "home", label: "home" },
-  { id: "about", label: "about" },
-  { id: "experience", label: "experience" },
-  { id: "projects", label: "projects" },
-  { id: "contact", label: "contact" },
+  { id: "home", label: "Home" },
+  { id: "about", label: "About" },
+  { id: "experience", label: "Experience" },
+  { id: "projects", label: "Projects" },
+  { id: "contact", label: "Contact" },
 ];
 
 const Navbar = () => {

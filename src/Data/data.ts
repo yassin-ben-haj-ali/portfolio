@@ -66,11 +66,11 @@ export const experiences = [
    Skills DATA
    ======================= */
 export const skills = {
-  Langages: ["Java", "Python", "JavaScript", "TypeScript", "Dart"],
+  Languages: ["Java", "Python", "JavaScript", "TypeScript", "Dart"],
   Frontend: ["React.js", "Next.js", "Flutter", "HTML/CSS"],
   Backend: ["Node.js", "Express.js", "Spring Boot", "Flask", "Hono.js"],
-  "Bases de données": ["MongoDB", "PostgreSQL", "MySQL", "Firebase"],
-  "Outils & DevOps": ["Git", "Docker", "Kubernetes", "CI/CD", "Cloudflare"],
+  Databases: ["MongoDB", "PostgreSQL", "MySQL", "Firebase"],
+  "Tools & DevOps": ["Git", "Docker", "Kubernetes", "CI/CD", "Cloudflare"],
 };
 
 export const projects = [
