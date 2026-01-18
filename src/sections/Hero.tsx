@@ -87,7 +87,7 @@ const Hero = () => {
               </a>
 
               <a
-                href={`${import.meta.env.BASE_URL}cv.pdf`}
+                href={`${import.meta.env.BASE_URL}Yassine_Ben_Hadj_Ali_CV.pdf`}
                 download
                 className="flex items-center gap-2 px-5 md:px-6 py-3 md:py-4 border border-blue-500/50 text-blue-600 dark:text-blue-400 rounded-xl font-semibold hover:bg-blue-500/10 dark:hover:bg-blue-500/20 transition-all duration-300 backdrop-blur-sm text-sm md:text-base"
               >
