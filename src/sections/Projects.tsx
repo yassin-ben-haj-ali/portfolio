@@ -64,13 +64,13 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="py-24 px-4 relative overflow-hidden bg-gray-50 dark:bg-black"
+      className="py-24 px-4 relative overflow-hidden bg-black"
     >
-      <div className="absolute inset-0 bg-gradient-to-b from-white via-blue-50/20 to-white dark:from-black dark:via-blue-900/10 dark:to-black pointer-events-none" />
+      <div className="absolute inset-0 bg-gradient-to-b from-black via-blue-900/10 to-black pointer-events-none" />
 
       <div className="max-w-7xl mx-auto relative z-10">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4 text-gray-900 dark:text-white">
+          <h2 className="text-4xl md:text-5xl font-bold mb-4 text-white">
             <span className="bg-gradient-to-r from-blue-400 to-purple-600 bg-clip-text text-transparent">
               Projects
             </span>
@@ -90,9 +90,7 @@ const Projects = () => {
 
         {projects.length === 0 && (
           <div className="text-center py-12">
-            <p className="text-gray-600 dark:text-gray-400 text-lg">
-              No projects found
-            </p>
+            <p className="text-gray-400 text-lg">No projects found</p>
           </div>
         )}
       </div>

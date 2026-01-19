@@ -49,7 +49,7 @@ const Navbar = () => {
       <nav
         className={`fixed top-0 w-full z-50 transition-all duration-300 ${
           scrolled
-            ? "bg-white/90 dark:bg-black/90 backdrop-blur-xl border-b border-blue-500/30 shadow-lg shadow-blue-500/10"
+            ? "bg-black/90 backdrop-blur-xl border-b border-blue-500/30 shadow-lg shadow-blue-500/10"
             : "bg-transparent"
         }`}
       >
@@ -90,7 +90,7 @@ const Navbar = () => {
       >
         {/* Backdrop */}
         <div
-          className={`absolute inset-0 bg-white/98 dark:bg-black/98 backdrop-blur-2xl transition-opacity duration-300 ${
+          className={`absolute inset-0 bg-black/98 backdrop-blur-2xl transition-opacity duration-300 ${
             isMenuOpen ? "opacity-100" : "opacity-0"
           }`}
           onClick={() => setIsMenuOpen(false)}

@@ -16,7 +16,7 @@ const CarouselControlButton: React.FC<CarouselControlButtonProps> = ({
     <button
       onClick={onClick}
       disabled={disabled}
-      className={`absolute top-1/2 -translate-y-1/2 bg-gray-900/80 hover:bg-gray-800 dark:bg-gray-800/80 dark:hover:bg-gray-700 text-white p-2 rounded-full transition-all opacity-0 group-hover:opacity-100 z-10 disabled:opacity-50 ${
+      className={`absolute top-1/2 -translate-y-1/2 bg-gray-800/80 hover:bg-gray-700 text-white p-2 rounded-full transition-all opacity-0 group-hover:opacity-100 z-10 disabled:opacity-50 ${
         btnSide == "left" ? "left-2" : "right-2"
       }`}
       aria-label={btnSide == "left" ? "prevImage" : "nextImage"}

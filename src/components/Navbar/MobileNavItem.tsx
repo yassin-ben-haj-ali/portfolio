@@ -21,7 +21,7 @@ const MobileNavItem: React.FC<MobileNavItemProps> = ({
       className={`text-2xl font-semibold transition-all duration-300 hover:text-blue-500 hover:scale-110 ${
         isActive
           ? "text-blue-500 scale-110"
-          : "text-gray-700 dark:text-gray-300"
+          : "text-gray-300"
       }`}
       style={{
         transitionDelay: isMenuOpen ? `${delay}ms` : "0ms",

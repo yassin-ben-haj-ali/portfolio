@@ -59,9 +59,9 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, onImageClick }) => {
   };
 
   return (
-    <div className="group bg-white dark:bg-gray-900 backdrop-blur-sm rounded-2xl overflow-hidden border border-blue-500/20 dark:border-blue-500/30 hover:border-blue-500/50 transition-all duration-300 hover:shadow-xl hover:shadow-blue-500/20 hover:scale-[1.02] shadow-lg">
+    <div className="group bg-gray-900 backdrop-blur-sm rounded-2xl overflow-hidden border border-blue-500/30 hover:border-blue-500/50 transition-all duration-300 hover:shadow-xl hover:shadow-blue-500/20 hover:scale-[1.02] shadow-lg">
       {/* Media Section - Carousel */}
-      <div className="relative h-64 bg-gray-100 dark:bg-gray-800 overflow-hidden">
+      <div className="relative h-64 bg-gray-800 overflow-hidden">
         {/* Loading Placeholder */}
         {!imagesLoaded[currentImage] && (
           <div className="absolute inset-0 flex items-center justify-center">
@@ -80,7 +80,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, onImageClick }) => {
         />
 
         {/* Zoom Icon Indicator */}
-        <div className="absolute top-2 left-2 bg-gray-900/80 dark:bg-gray-800/80 text-white p-2 rounded-full opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">
+        <div className="absolute top-2 left-2 bg-gray-800/80 text-white p-2 rounded-full opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">
           <ZoomIn className="w-4 h-4" />
         </div>
 
@@ -122,14 +122,14 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, onImageClick }) => {
         <h3 className="text-2xl font-bold text-blue-500 mb-3 group-hover:text-blue-400 transition-colors">
           {project.title}
         </h3>
-        <p className="text-gray-600 dark:text-gray-400 mb-4 leading-relaxed">
+        <p className="text-gray-400 mb-4 leading-relaxed">
           {project.description}
         </p>
         <div className="flex flex-wrap gap-2">
           {project.tech.map((tech) => (
             <span
               key={tech}
-              className="px-3 py-1 bg-blue-500/10 dark:bg-blue-500/20 border border-blue-500/30 rounded-full text-sm text-blue-600 dark:text-blue-400"
+              className="px-3 py-1 bg-blue-500/20 border border-blue-500/30 rounded-full text-sm text-blue-400"
             >
               {tech}
             </span>
